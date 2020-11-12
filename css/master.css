@@ -28,7 +28,7 @@ li{
   margin-right: 20px;
 }
 
-nav > ul > li > a{
+ul > li > a{
   text-decoration: none;
   text-transform: uppercase;
   color: black;
@@ -42,7 +42,7 @@ header{
   background-size: contain;
 }
 
-.nav{
+.nav1{
   height: 100px;
   line-height: 100px;
 }
@@ -65,6 +65,25 @@ header{
 
 .bordo{
   border-bottom: 3px solid grey;
+}
+
+.logo{
+  display: inline-block;
+}
+
+.nav3::after{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.nav2{
+  margin-top: 10px;
+}
+
+.nav3{
+  display: inline-block;
+  margin-top: 10px;
 }
 
 .jumbotron{

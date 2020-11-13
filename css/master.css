@@ -133,12 +133,48 @@ main{
 .cubo > p{
   margin-top: 30px;
 }
-
+.cubo > h2{
+  font-size: 30px;
+}
+.learnmore::after{
+  content: "";
+  display: table;
+  clear: both;
+}
 .learnmore{
   padding-top: 40px;
   height: 400px;
-  background-color:blue;
+  width: 1200px;
 }
-.learnmore >*{
-  display: inline-block;
+
+.libro{
+  height: 100%;
+  width: 320px;
+}
+
+.sez2{
+  height: 100%;
+  width: 880px;
+}
+.cmr > h3{
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.cmr > *{
+  margin-bottom: 20px;
+}
+
+.cmr >div > ul > li > img{
+  margin-right:10px;
+}
+
+.cmr > div > span{
+  font-weight: bold;
+}
+
+.colonne{
+  width: 100%;
+  height: 800px;
+  background-color: pink;
 }

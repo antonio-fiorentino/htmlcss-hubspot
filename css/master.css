@@ -169,12 +169,86 @@ main{
   margin-right:10px;
 }
 
-.cmr > div > span{
+.popolar{
   font-weight: bold;
 }
 
+/* Colonne */
+.colonne::after{
+  content: "";
+  display: table;
+  clear: both;
+}
 .colonne{
+  margin: auto;
   width: 100%;
-  height: 800px;
-  background-color: pink;
+  margin-bottom: 100px;
+}
+/* Colonna di destra */
+
+.colonna1{
+  height: 900px;
+  width: 33.333%;
+  float: left;
+  padding-right: 30px;
+}
+.destra{
+  height: 900px;
+  width: 100%;
+  position: relative;
+  text-align: center;
+
+}
+
+/* Colonna centrale */
+
+.colonna2{
+  height: 700px;
+  width: 33.333%;
+  float: left;
+  padding: 0px 15px;
+}
+.centro{
+  height: 900px;
+  width: 100%;
+  position: relative;
+  text-align: center;
+}
+/* Colonna di sinistra */
+
+.colonna3{
+  height: 700px;
+  width: 33.333%;
+  float: left;
+  padding-left: 30px;
+}
+.sinistra{
+  height: 900px;
+  width: 100%;
+  position: relative;
+  text-align: center;
+}
+
+.colonne p{
+  padding: 50px 0px;
+}
+.colonna3 p{
+  padding-bottom: 25px;
+}
+.bordo{
+  width: 80%;
+  margin: auto;
+}
+
+.colonne .popolar{
+  padding-top: 20px;
+}
+
+.colonne li{
+  display: block;
+}
+
+.sinistra>.listato>ul>li{
+  text-align: left;
+
 }

@@ -47,7 +47,7 @@ header{
   line-height: 100px;
 }
 
-.login > ul > li > img{
+.login > ul > li > a > img{
   width: 20px;
   height: 20px;
 }
@@ -122,6 +122,23 @@ header{
 
 
 main{
-  background-color: grey;
   height:2000px;
+}
+
+.cubo{
+  text-align: center;
+  padding-top: 40px;
+  height: 400px;
+}
+.cubo > p{
+  margin-top: 30px;
+}
+
+.learnmore{
+  padding-top: 40px;
+  height: 400px;
+  background-color:blue;
+}
+.learnmore >*{
+  display: inline-block;
 }

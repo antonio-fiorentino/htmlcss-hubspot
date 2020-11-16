@@ -287,11 +287,86 @@ main{
 
 .box{
   margin-top: 50px;
+  text-align: center;
 }
 .box div{
   height: 200px;
   width: 300px;
+  display: inline-block;
+}
+.imgbox{
+  margin-top: 0;
+}
+.box>div:last-child img{
+  margin-bottom: 10px;
+}
+
+.box>div:first-child, div:nth-child(2),div:nth-child(3) {
+  border-right: 1px solid white;
+}
+
+h5{
+  font-size: 30px;
+}
+h5>span{
+  font-size: 30px;
+  font-weight: normal;
+}
+
+.loghi{
+  margin:auto;
+  width: 1000px;
+  height: 300px;
+  margin-top: 30px;
+}
+
+.loghi::after{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.customer{
+  width: 30%;
+  height: 300px;
+  background-color: red;
+  display: inline-block;
+}
+
+.customer > *{
+  margin-bottom: 10px;
+}
+
+.customer>h4{
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+.aziende{
+  width: 70%;
+  height: 300px;
   background-color: green;
   display: inline-block;
-  border: 1px solid black;
+
+}
+
+.aziende::after{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.row{
+  height: 100px;
+  width: 600px;
+  margin-left: 100px;
+  background-color: orange;
+}
+
+.immagini{
+  width: 25%;
+  height: 50px;
+  background-color: black;
+  border: 1px solid white;
+  background-size: cover;
 }

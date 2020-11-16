@@ -187,13 +187,13 @@ main{
 /* Colonna di destra */
 
 .colonna1{
-  height: 900px;
+  height: 550px;
   width: 33.333%;
   float: left;
   padding-right: 30px;
 }
 .destra{
-  height: 900px;
+  height: 550px;
   width: 100%;
   position: relative;
   text-align: center;
@@ -203,13 +203,13 @@ main{
 /* Colonna centrale */
 
 .colonna2{
-  height: 700px;
+  height: 550px;
   width: 33.333%;
   float: left;
   padding: 0px 15px;
 }
 .centro{
-  height: 900px;
+  height: 550px;
   width: 100%;
   position: relative;
   text-align: center;
@@ -217,13 +217,13 @@ main{
 /* Colonna di sinistra */
 
 .colonna3{
-  height: 700px;
+  height: 550px;
   width: 33.333%;
   float: left;
   padding-left: 30px;
 }
 .sinistra{
-  height: 900px;
+  height: 550px;
   width: 100%;
   position: relative;
   text-align: center;
@@ -236,7 +236,6 @@ main{
   padding-bottom: 25px;
 }
 .bordo{
-  width: 80%;
   margin: auto;
 }
 
@@ -248,7 +247,51 @@ main{
   display: block;
 }
 
-.sinistra>.listato>ul>li{
+.listato {
   text-align: left;
+  margin-top:  30px;
+}
 
+.listato > ul > li > img{
+  margin-right: 20px;
+}
+
+.destra > input{
+  margin-top: 50px;
+}
+.centro > input{
+  margin-top: 50px;
+}
+.sinistra > input{
+  margin-top: 50px;
+}
+
+.gradient{
+  background-image: linear-gradient(to bottom left, #5cd3c6, #5dbcd2);
+  width: 100%;
+  height: 800px;
+  color: #fff;
+  text-align: center;
+}
+
+.gradient > .container > h3{
+  font-size: 30px;
+  margin-bottom: 30px;
+}
+
+.box::after{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.box{
+  margin-top: 50px;
+}
+.box div{
+  height: 200px;
+  width: 300px;
+  background-color: green;
+  display: inline-block;
+  border: 1px solid black;
 }

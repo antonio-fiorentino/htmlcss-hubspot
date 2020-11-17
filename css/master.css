@@ -175,6 +175,18 @@ main{
   font-weight: bold;
   font-size: 20px;
 }
+.cmr::after{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+hr{
+  width: 600px;
+  margin-top: 10px;
+  margin-right: 40px;
+}
+
 
 .cmr > *{
   margin-bottom: 20px;
@@ -434,7 +446,7 @@ h5>span{
 footer{
   background-color: #32495b;
   width: 100%;
-  height: 800px;
+  height: 900px;
   color: #fff;
 }
 footer>div>div>ul>li>a{
@@ -449,23 +461,32 @@ footer>div>div>ul>li{
   font-weight: bold;
   margin-bottom: 50px;
 }
-.listato{
+.listato2{
   display: inline-block;
   margin-right: 50px;
   margin-bottom: 150px;
 }
-.listato:last-child{
+.listato2:last-child{
   margin-right: 0;
 }
-.listato:nth-child(3)>ul>li:last-child{
+.listato2:nth-child(3)>ul>li:last-child{
   visibility: hidden;
 }
-.listato:nth-child(2)>ul>li:last-child{
+.listato2:nth-child(2)>ul>li:last-child{
   visibility: hidden;
 }
-.listato:first-child>ul>li:last-child{
+.listato2:first-child>ul>li:last-child{
   visibility: hidden;
 }
+.bottone3{
+  background-color: orange;
+  color: #fff;
+  border: 1px solid orange;
+  border-radius: 5px;
+  height: 50px;
+  width: 180px;
+}
+
 
 .lingue{
   margin: auto;
@@ -477,4 +498,31 @@ footer>div>div>ul>li{
 .bordino{
   border-bottom: 3px solid #fff;
   margin-top: 20px;
+}
+.fine::after{
+  content: "";
+  display: table;
+  clear: both;
+}
+.fine{
+  margin-top: 50px;
+}
+.copyright{
+  width: 50%;
+  text-align: left;
+  height: 100px;
+}
+.copyright>img{
+  background-color: white;
+}
+.privacy{
+  width: 50%;
+  text-align: right;
+  height: 100px;
+}
+
+.privacy>ul>li{
+  list-style-type:none;
+  display: inline-block;
+  margin:0px 20px;
 }
